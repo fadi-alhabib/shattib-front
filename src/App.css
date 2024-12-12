@@ -1,0 +1,25 @@
+.admin-product-table {
+  @apply w-full;
+}
+.admin-product-table > thead {
+  @apply bg-brown;
+}
+.admin-product-table > thead > tr > th {
+  @apply py-4 border-2 border-white;
+}
+.admin-product-table > tbody > tr > td {
+  @apply py-4 border-2 border-gray-200 text-center;
+}
+
+.orders-table {
+  @apply w-full;
+}
+.orders-table > thead {
+  @apply bg-gray-100;
+}
+.orders-table > thead > tr > th {
+  @apply py-4 border-2 border-gray-200;
+}
+.orders-table > tbody > tr > td {
+  @apply py-12 border-b-2 border-b-gray-200 text-center;
+}

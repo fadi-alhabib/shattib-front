@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Yanson Regular";
+  src: url("./assets/fonts/Younestype - Yanson Regular.otf");
+}
+
+:root {
+  font-family: "Yanson Regular", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
